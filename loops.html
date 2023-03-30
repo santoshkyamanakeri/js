@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing Loops</title>
+  </head>
+  <body>
+    <h1>Loops in JS</h1>
+    <script>
+      //for loop
+      //   var colors = ["red", "green", "blue", "yellow"];
+      //   for (var i = 0; i < 10; i++) {
+      //     console.log(i);
+      //   }
+
+      //working with array
+      //   for (var i = 0; i < 4; i++) {
+      //   for (var i = 0; i < colors.length; i++) {
+      //     console.log(colors[i]);
+      //   }
+
+      //   the for ....of loop
+      //   for (var eachColor of colors) {
+      //     console.log(eachColor);
+      //   }
+
+      // string as array
+      // var myString = "Here is my string of text";
+      // for (var i = 0; i < myString; i++) {
+      //     console.log(myString[i]);
+      // }
+
+      // for (var eachLetter of myString) {
+      //     console.log(eachLetter);
+      // }
+
+      // while loop
+      //   var incrementor = 0;
+      //   var text = "";
+
+      //   while (incremetor < 10) {
+      //     // text += "the incrementor has gone up to " + incrementor + "\n";
+      //     text += `the incrementor has gone up to ${incrementor}\n`; //template literals
+      //     incrementor++;
+      //   }
+      //   console.log(text);
+
+      //   example
+      var i = 0;
+      var text = "";
+
+      while (i < 10) {
+        text += `the incrementor is ${i}, the incrementor squared is ${
+          i * i
+        }\n`; //template literals
+        i++;
+      }
+      console.log(text);
+    </script>
+  </body>
+</html>
